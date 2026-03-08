@@ -1,0 +1,5 @@
+{
+  "name": "ANALIZADOR DE HES",
+  "description": "Aplicación para el análisis de archivos Excel HES y generación de informes de facturación en PDF con control de duplicados y límites.",
+  "requestFramePermissions": []
+}
