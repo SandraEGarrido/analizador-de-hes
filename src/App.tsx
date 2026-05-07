@@ -408,7 +408,7 @@ export default function App() {
 										className="w-full px-4 py-2 rounded-xl border border-slate-200 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
 									/>
 									<p className="mt-1 text-xs text-slate-400 italic">
-										El límite de 3.958.316 se compara contra el total con IVA incluido (21%).
+										El límite de 5.549.862 se compara contra el total con IVA incluido (21%).
 									</p>
 								</div>
 							</div>
