@@ -50,17 +50,17 @@ function convertirFechaExcel(fecha: any) {
 	return String(fecha);
 }
 export default function App() {
-	const [hesData, setHesData] = useState<HESRecord[]>([]);
-	const [originalHesData, setOriginalHesData] = useState<any[]>([]);
-	const [billedOrders, setBilledOrders] = useState<Set<string>>(new Set());
-	const [threshold, setThreshold] = useState<number>(3958316);
-	const [invoiceNumbers, setInvoiceNumbers] = useState<Record<string, string>>({});
-	const [isLoading, setIsLoading] = useState(false);
-	const [isProcessing, setIsProcessing] = useState(false);
-	const [error, setError] = useState<string | null>(null);
-	const [showDownloadModal, setShowDownloadModal] = useState<{ open: boolean, order?: OrderGroup, all?: boolean }>({ open: false });
-	const hesInputRef = useRef<HTMLInputElement | null>(null);
-	const billedInputRef = useRef<HTMLInputElement | null>(null);
+  const [hesData, setHesData] = useState<HESRecord[]>([]);
+  const [originalHesData, setOriginalHesData] = useState<any[]>([]);
+  const [billedOrders, setBilledOrders] = useState<Set<string>>(new Set());
+  const [threshold, setThreshold] = useState<number>(5549862);
+  const [invoiceNumbers, setInvoiceNumbers] = useState<Record<string, string>>({});
+  const [isLoading, setIsLoading] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [showDownloadModal, setShowDownloadModal] = useState<{ open: boolean, order?: OrderGroup, all?: boolean }>({ open: false });
+  const hesInputRef = useRef<HTMLInputElement | null>(null);
+  const billedInputRef = useRef<HTMLInputElement | null>(null);
 
 	const parseDate = (dateStr: string) => {
 		if (!dateStr) return 0;
